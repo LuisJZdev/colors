@@ -27,4 +27,21 @@ section {
     border-radius: 50px;
     height: 35vh;
     width: 35vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section > h1, section > button {
+    margin: 15px;
+}
+
+
+button {
+    background-color: white;
+    padding: 10px;
+    width: 120px;
+    border-radius: 10px; 
 }
