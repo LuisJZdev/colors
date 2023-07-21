@@ -34,12 +34,13 @@ section {
     flex-direction: column;
 }
 
-section > h1, section > button {
+section > h2, section > button {
     margin: 15px;
 }
 
-h1 {
+h2 {
     color: white;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 button {

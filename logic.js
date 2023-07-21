@@ -5,18 +5,12 @@ const primaryColors = [
     "yellow",
 ];
 
+// primary colors combinations
 const secondaryColors = [
     "green",
-    "orange",
     "purple",
+    "orange",
 ]
-
-const secondaryColorsCombinations = {
-    //        combination
-    "green": [primaryColors[0], primaryColors[1]],
-    "orange": [primaryColors[0], primaryColors[2]],
-    "purple": [primaryColors[1], primaryColors[2]]
-};
 
 const main = document.getElementById("main");
 const section = document.getElementById("section");
