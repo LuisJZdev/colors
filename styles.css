@@ -9,7 +9,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: yellow;
+    background-color: black;
 }
 
 main {
@@ -38,10 +38,15 @@ section > h1, section > button {
     margin: 15px;
 }
 
+h1 {
+    color: white;
+}
 
 button {
     background-color: white;
     padding: 10px;
     width: 120px;
-    border-radius: 10px; 
+    border-radius: 10px;
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
 }
